@@ -1,0 +1,516 @@
+Appointment_ID,Patient_Name,Patient_Age,Gender,Department,Doctor_Name,Appointment_Date,Appointment_Status,Fee_USD,Payment_Status,Insurance_Provider,Hospital_Area
+APT-00001,Jared David,46,Female,Dermatology,Dr. Sarah Williams,2026-06-27,Scheduled,300.0,Refunded,Medicare,Lincoln Park
+APT-00002,Jeffrey Morales,79,Female,Gastroenterology,Dr. David Miller,2026-04-26,No Show,,Refunded,Aetna,South Side
+APT-00003,Pamela Roberts,63,Male,General Medicine,Dr. Daniel Martinez,2026-03-27,Completed,600.0,Paid,Aetna,West Loop
+APT-00004,Tina Cox MD,23,Male,Dermatology,Dr. Laura Davis,2026-04-27,Rescheduled,120.0,Pending,Humana,Downtown Chicago
+APT-00005,Elizabeth Baker,72,Female,Gastroenterology,Dr. Jessica Brown,2026-06-24,Cancelled,300.0,Insurance Processing,UnitedHealthcare,South Side
+APT-00006,John Young,73,Male,Gastroenterology,Dr. Emily Carter,2026-03-18,Completed,250.0,Rejected,Humana,North Side
+APT-00007,Nancy Mayer,37,Female,Dermatology,Dr. Robert Wilson,2026-06-04,Completed,,Insurance Processing,UnitedHealthcare,South Side
+APT-00008,Kristen Cooper,6,Male,Radiology,Dr. Jessica Brown,2026-05-15,No Show,250.0,Paid,Blue Cross Blue Shield,Downtown Chicago
+APT-00009,Levi Ford,44,Male,General Medicine,Dr. Daniel Martinez,2026-05-02,Completed,120.0,Insurance Processing,Self Pay,North Side
+APT-00010,Kristen Hall,74,Female,Orthopedics,Dr. Michael Johnson,2026-06-08,Cancelled,600.0,Partially Paid,Medicare,North Side
+APT-00011,Terry Gordon,20,Female,Oncology,Dr. Daniel Martinez,2026-06-09,Completed,600.0,Pending,UnitedHealthcare,West Loop
+APT-00012,Mary Williamson,36,Female,Radiology,Dr. Laura Davis,2026-04-18,No Show,,Rejected,UnitedHealthcare,Lincoln Park
+APT-00013,Mark Owens,68,Female,Endocrinology,Dr. Sarah Williams,2026-06-20,Rescheduled,150.0,Pending,Self Pay,South Side
+APT-00014,Jamie Lee,25,Female,Oncology,Dr. Robert Wilson,2026-05-26,Rescheduled,200.0,Partially Paid,Cigna,Hyde Park
+APT-00015,Karen Lewis,57,Male,Urology,Dr. Michael Johnson,2026-06-07,No Show,450.0,Insurance Processing,Aetna,Lincoln Park
+APT-00016,Jennifer Durham,80,Male,Pediatrics,Dr. Sophia Garcia,2026-06-18,Scheduled,200.0,Insurance Processing,Cigna,Hyde Park
+APT-00017,Brenda Lewis,51,Female,ENT,Dr. Michael Johnson,2026-04-07,Rescheduled,300.0,Paid,UnitedHealthcare,River North
+APT-00018,Thomas Martinez,25,Female,Gynecology,Dr. Sarah Williams,2026-06-29,Cancelled,,Refunded,Self Pay,West Loop
+APT-00019,Jeffrey Palmer,55,Male,Urology,Dr. Laura Davis,2026-05-09,Scheduled,120.0,Pending,Blue Cross Blue Shield,Hyde Park
+APT-00020,Bryan Washington,83,Female,Gastroenterology,Dr. Sarah Williams,2026-05-19,No Show,250.0,Rejected,Self Pay,Downtown Chicago
+APT-00021,Christopher Roberts,69,Male,Orthopedics,Dr. James Anderson,2026-06-28,Completed,300.0,Rejected,UnitedHealthcare,South Side
+APT-00022,Derrick Kim,27,Male,Cardiology,Dr. James Anderson,2026-04-17,Cancelled,600.0,Rejected,Cigna,North Side
+APT-00023,Brian Heath,75,Female,Pediatrics,Dr. Daniel Martinez,2026-04-06,Cancelled,150.0,Partially Paid,Self Pay,Hyde Park
+APT-00024,Timothy Bautista,62,Female,Pediatrics,Dr. Sarah Williams,2026-07-11,Cancelled,600.0,Rejected,Aetna,North Side
+APT-00025,Joseph Khan,74,Female,Pediatrics,Dr. Jessica Brown,2026-06-22,Scheduled,200.0,Insurance Processing,UnitedHealthcare,Lincoln Park
+APT-00026,David Wong,50,Male,Cardiology,Dr. David Miller,2026-04-30,Scheduled,300.0,Rejected,Humana,South Side
+APT-00027,Richard Vasquez,57,Female,Gastroenterology,Dr. Emily Carter,2026-03-22,Completed,200.0,Pending,Aetna,Downtown Chicago
+APT-00028,Jeremy Diaz,23,Male,Dermatology,Dr. Emily Carter,2026-06-10,Completed,250.0,Refunded,Humana,North Side
+APT-00029,Samuel Guerra,2,Male,Psychiatry,Dr. Laura Davis,2026-05-27,Completed,200.0,Partially Paid,Humana,Hyde Park
+APT-00030,David Becker,64,Female,Cardiology,Dr. Sarah Williams,2026-05-11,Rescheduled,,Pending,Humana,Lincoln Park
+APT-00031,Brian Vaughn,72,Female,Endocrinology,Dr. Jessica Brown,2026-04-08,Scheduled,75.0,Pending,Cigna,North Side
+APT-00032,Kirk Bird,84,Male,Oncology,Dr. Laura Davis,2026-03-31,Rescheduled,,Insurance Processing,Medicare,River North
+APT-00033,Adam Guerrero,18,Male,Pediatrics,Dr. Jessica Brown,2026-05-27,Completed,450.0,Partially Paid,Blue Cross Blue Shield,Lincoln Park
+APT-00034,Kathleen Patel,30,Female,Gastroenterology,Dr. David Miller,2026-05-12,Rescheduled,,Pending,Medicaid,North Side
+APT-00035,Ann Barnett DDS,30,Female,Oncology,Dr. David Miller,2026-07-15,Rescheduled,,Pending,UnitedHealthcare,Hyde Park
+APT-00036,Alex Garcia,49,Male,Cardiology,Dr. Sophia Garcia,2026-06-14,No Show,600.0,Insurance Processing,Cigna,River North
+APT-00037,Sandra Jacobs,14,Female,Psychiatry,Dr. Michael Johnson,2026-04-27,No Show,120.0,Insurance Processing,Cigna,Downtown Chicago
+APT-00038,Ronnie Fischer,74,Male,Urology,Dr. David Miller,2026-05-13,Cancelled,75.0,Insurance Processing,Humana,West Loop
+APT-00039,Jasmine Delgado,87,Male,Gynecology,Dr. James Anderson,2026-05-26,Rescheduled,120.0,Insurance Processing,Cigna,River North
+APT-00040,Mr. Stephen Lam,78,Female,Gastroenterology,Dr. Jessica Brown,2026-07-09,Cancelled,300.0,Pending,Self Pay,Hyde Park
+APT-00041,Nicole Cole,53,Female,Radiology,Dr. David Miller,2026-07-14,Scheduled,200.0,Paid,Self Pay,Lincoln Park
+APT-00042,Justin Mason,80,Male,Pediatrics,Dr. David Miller,2026-06-16,Completed,150.0,Refunded,Medicaid,North Side
+APT-00043,Amanda Mcdaniel,18,Male,Cardiology,Dr. Jessica Brown,2026-07-02,Rescheduled,300.0,Partially Paid,Cigna,Downtown Chicago
+APT-00044,Tammy Vega,21,Male,Cardiology,Dr. Daniel Martinez,2026-03-24,No Show,120.0,Refunded,UnitedHealthcare,South Side
+APT-00045,Andrew Bradley,38,Female,Orthopedics,Dr. David Miller,2026-05-27,Completed,250.0,Refunded,Cigna,North Side
+APT-00046,Tonya Foster,24,Male,Radiology,Dr. Sophia Garcia,2026-06-13,Scheduled,,Rejected,UnitedHealthcare,River North
+APT-00047,Joseph Jones,2,Male,Emergency Medicine,Dr. Jessica Brown,2026-04-17,Rescheduled,600.0,Insurance Processing,Aetna,South Side
+APT-00048,Ryan Wolfe,16,Male,Oncology,Dr. Sarah Williams,2026-05-24,No Show,600.0,Paid,UnitedHealthcare,Hyde Park
+APT-00049,Sheryl Hernandez,59,Male,Gynecology,Dr. Daniel Martinez,2026-04-09,Cancelled,120.0,Refunded,Humana,Hyde Park
+APT-00050,David James,81,Male,Orthopedics,Dr. Sophia Garcia,2026-04-21,Rescheduled,75.0,Insurance Processing,Cigna,North Side
+APT-00051,Teresa Greene MD,23,Female,Radiology,Dr. Daniel Martinez,2026-03-25,Rescheduled,120.0,Paid,Medicare,West Loop
+APT-00052,Russell Curtis,31,Female,Neurology,Dr. Emily Carter,2026-06-06,Completed,250.0,Partially Paid,UnitedHealthcare,West Loop
+APT-00053,Denise Mills,64,Male,Radiology,Dr. Daniel Martinez,2026-04-08,Scheduled,600.0,Partially Paid,Cigna,Hyde Park
+APT-00054,James Martinez,4,Male,Endocrinology,Dr. David Miller,2026-04-07,No Show,250.0,Pending,Medicaid,Downtown Chicago
+APT-00055,Robert Barnett,81,Male,Psychiatry,Dr. Sophia Garcia,2026-04-25,Completed,200.0,Partially Paid,Cigna,River North
+APT-00056,Barbara Velasquez,59,Male,General Medicine,Dr. Emily Carter,2026-06-14,Cancelled,250.0,Insurance Processing,Medicaid,River North
+APT-00057,Nicole Walker,29,Male,Orthopedics,Dr. Daniel Martinez,2026-03-20,Completed,120.0,Rejected,Self Pay,West Loop
+APT-00058,Mrs. Lisa Villarreal,17,Male,Orthopedics,Dr. Sophia Garcia,2026-06-25,Completed,75.0,Refunded,Self Pay,West Loop
+APT-00059,John Fisher,84,Male,Urology,Dr. Daniel Martinez,2026-04-05,Scheduled,150.0,Insurance Processing,Self Pay,Lincoln Park
+APT-00060,Alexander Maynard,17,Female,Dermatology,Dr. Michael Johnson,2026-05-17,No Show,120.0,Paid,UnitedHealthcare,Hyde Park
+APT-00061,Benjamin Reed,33,Male,Urology,Dr. Laura Davis,2026-04-02,Cancelled,75.0,Rejected,Medicare,Lincoln Park
+APT-00062,Garrett Griffith,32,Female,Endocrinology,Dr. Emily Carter,2026-04-01,Completed,120.0,Refunded,Medicaid,River North
+APT-00063,Ryan Watson,28,Female,Orthopedics,Dr. Emily Carter,2026-07-09,Rescheduled,,Refunded,UnitedHealthcare,South Side
+APT-00064,John Gardner,14,Male,Psychiatry,Dr. Sophia Garcia,2026-04-24,Cancelled,250.0,Refunded,Medicare,Hyde Park
+APT-00065,Christopher Webster,81,Female,Gastroenterology,Dr. James Anderson,2026-04-09,No Show,300.0,Paid,Humana,River North
+APT-00066,Jessica Johnson,63,Female,Neurology,Dr. James Anderson,2026-06-29,Cancelled,300.0,Partially Paid,Medicare,Hyde Park
+APT-00067,Michael Johnston,38,Male,Endocrinology,Dr. Sophia Garcia,2026-03-18,Rescheduled,150.0,Refunded,UnitedHealthcare,South Side
+APT-00068,Robert Adams,55,Female,Endocrinology,Dr. David Miller,2026-04-25,No Show,120.0,Insurance Processing,Self Pay,Downtown Chicago
+APT-00069,Bruce Waters,65,Female,Cardiology,Dr. Laura Davis,2026-06-15,Completed,250.0,Insurance Processing,Medicare,Hyde Park
+APT-00070,Joseph Holt,64,Female,Endocrinology,Dr. Emily Carter,2026-06-19,No Show,150.0,Pending,Aetna,Downtown Chicago
+APT-00071,Alexander White,6,Male,Dermatology,Dr. Michael Johnson,2026-04-14,Completed,450.0,Pending,Cigna,South Side
+APT-00072,Joel Wagner,17,Female,Radiology,Dr. Sarah Williams,2026-07-12,Scheduled,200.0,Insurance Processing,Cigna,North Side
+APT-00073,John Simmons,36,Male,ENT,Dr. David Miller,2026-03-22,Completed,,Insurance Processing,Medicaid,South Side
+APT-00074,Diana Hensley,43,Male,Neurology,Dr. James Anderson,2026-03-18,No Show,75.0,Rejected,Self Pay,Downtown Chicago
+APT-00075,Thomas Campbell,53,Female,Emergency Medicine,Dr. Laura Davis,2026-06-21,Rescheduled,450.0,Partially Paid,Self Pay,Downtown Chicago
+APT-00076,James Jordan,36,Male,Dermatology,Dr. David Miller,2026-05-07,Completed,120.0,Rejected,Medicaid,Hyde Park
+APT-00077,Michelle Price,87,Male,Psychiatry,Dr. Laura Davis,2026-05-14,Scheduled,200.0,Rejected,Medicaid,South Side
+APT-00078,Derek Hernandez,90,Male,Dermatology,Dr. Emily Carter,2026-04-13,Scheduled,300.0,Insurance Processing,Humana,Hyde Park
+APT-00079,Sarah Fuentes,22,Female,Neurology,Dr. Laura Davis,2026-04-20,Cancelled,120.0,Rejected,Self Pay,Downtown Chicago
+APT-00080,Marvin Morris,61,Female,Endocrinology,Dr. Daniel Martinez,2026-03-29,Completed,,Refunded,Cigna,Lincoln Park
+APT-00081,Sarah Rogers,38,Male,Pediatrics,Dr. Michael Johnson,2026-05-09,Completed,,Partially Paid,Humana,North Side
+APT-00082,James Chapman,28,Female,Dermatology,Dr. Emily Carter,2026-06-06,No Show,600.0,Insurance Processing,Blue Cross Blue Shield,West Loop
+APT-00083,Gail Carter,44,Female,Gastroenterology,Dr. Emily Carter,2026-06-15,Cancelled,150.0,Paid,Blue Cross Blue Shield,Downtown Chicago
+APT-00084,Michael Hammond,5,Female,Orthopedics,Dr. Robert Wilson,2026-06-16,Rescheduled,150.0,Insurance Processing,UnitedHealthcare,North Side
+APT-00085,Wesley Potter,89,Male,Endocrinology,Dr. Jessica Brown,2026-06-09,Cancelled,600.0,Rejected,Aetna,Lincoln Park
+APT-00086,Patricia Lynn,37,Male,ENT,Dr. Michael Johnson,2026-03-30,Completed,,Paid,Blue Cross Blue Shield,North Side
+APT-00087,Kayla Hansen,2,Male,Endocrinology,Dr. Emily Carter,2026-03-22,Completed,150.0,Insurance Processing,Medicaid,West Loop
+APT-00088,Joel Richardson,13,Male,Orthopedics,Dr. Sophia Garcia,2026-07-11,Rescheduled,75.0,Insurance Processing,Humana,Downtown Chicago
+APT-00089,Tanya Miller,17,Female,Gastroenterology,Dr. Sophia Garcia,2026-06-04,Completed,200.0,Rejected,Aetna,West Loop
+APT-00090,Brent Alvarez,22,Male,Pediatrics,Dr. Robert Wilson,2026-07-09,Completed,120.0,Paid,Medicaid,River North
+APT-00091,Jeffrey Palmer,79,Female,Radiology,Dr. Emily Carter,2026-04-09,Cancelled,300.0,Pending,Aetna,River North
+APT-00092,Cindy Roy,69,Female,Neurology,Dr. David Miller,2026-04-30,Scheduled,75.0,Paid,Cigna,North Side
+APT-00093,Richard Collins,83,Male,Oncology,Dr. Daniel Martinez,2026-04-13,Cancelled,250.0,Refunded,Medicare,River North
+APT-00094,Richard Ramirez,32,Female,Gastroenterology,Dr. Sophia Garcia,2026-06-03,Rescheduled,,Insurance Processing,Self Pay,Hyde Park
+APT-00095,Michael Fry,17,Female,Neurology,Dr. Sophia Garcia,2026-04-29,No Show,75.0,Refunded,Blue Cross Blue Shield,South Side
+APT-00096,Elizabeth Anderson,57,Female,Gynecology,Dr. Laura Davis,2026-07-04,Completed,600.0,Rejected,Humana,Downtown Chicago
+APT-00097,Heather Powell,63,Male,Gynecology,Dr. Michael Johnson,2026-05-31,Scheduled,120.0,Pending,Medicare,West Loop
+APT-00098,Melissa Wilson,19,Male,Pediatrics,Dr. Sarah Williams,2026-04-25,Completed,450.0,Partially Paid,Aetna,Lincoln Park
+APT-00099,Katelyn Cortez,72,Male,Dermatology,Dr. Robert Wilson,2026-05-13,Cancelled,300.0,Rejected,Aetna,Hyde Park
+APT-00100,Jodi Juarez,9,Female,Cardiology,Dr. Laura Davis,2026-04-30,Completed,150.0,Partially Paid,Medicare,North Side
+APT-00101,Jack Greene,7,Female,Emergency Medicine,Dr. Daniel Martinez,2026-04-05,Cancelled,,Partially Paid,UnitedHealthcare,West Loop
+APT-00102,Spencer Jacobs,46,Female,Gynecology,Dr. Michael Johnson,2026-04-16,Scheduled,120.0,Paid,Humana,West Loop
+APT-00103,Gary Daniels,21,Male,Endocrinology,Dr. Jessica Brown,2026-04-18,No Show,450.0,Insurance Processing,Humana,Hyde Park
+APT-00104,Denise Hill,18,Female,Dermatology,Dr. Emily Carter,2026-04-21,Completed,450.0,Paid,UnitedHealthcare,Downtown Chicago
+APT-00105,Kari Thomas,6,Male,Pediatrics,Dr. Sarah Williams,2026-05-05,No Show,250.0,Refunded,Blue Cross Blue Shield,Downtown Chicago
+APT-00106,Amy Martin,27,Female,Urology,Dr. Sophia Garcia,2026-04-05,Rescheduled,300.0,Pending,Aetna,Downtown Chicago
+APT-00107,Sylvia Peterson,18,Female,Endocrinology,Dr. Michael Johnson,2026-07-01,No Show,450.0,Paid,Blue Cross Blue Shield,North Side
+APT-00108,John Coleman,38,Female,Cardiology,Dr. Emily Carter,2026-04-30,Cancelled,300.0,Rejected,Medicaid,South Side
+APT-00109,James Knight,88,Male,Dermatology,Dr. Laura Davis,2026-05-05,Completed,450.0,Insurance Processing,Blue Cross Blue Shield,River North
+APT-00110,Molly Taylor,88,Male,Dermatology,Dr. Jessica Brown,2026-05-13,Cancelled,600.0,Insurance Processing,UnitedHealthcare,Lincoln Park
+APT-00111,Joseph Torres,67,Male,Gastroenterology,Dr. Robert Wilson,2026-03-18,Completed,,Refunded,Blue Cross Blue Shield,Downtown Chicago
+APT-00112,Kenneth Ruiz,42,Male,Endocrinology,Dr. Jessica Brown,2026-06-09,Completed,300.0,Partially Paid,Humana,Hyde Park
+APT-00113,Monique Reed,53,Female,Neurology,Dr. Emily Carter,2026-04-09,No Show,75.0,Rejected,Medicare,Lincoln Park
+APT-00114,Brianna Wallace,58,Female,Pediatrics,Dr. James Anderson,2026-07-11,No Show,200.0,Refunded,Blue Cross Blue Shield,Downtown Chicago
+APT-00115,Robert Mathews,47,Female,ENT,Dr. Jessica Brown,2026-06-05,Scheduled,75.0,Paid,Medicare,South Side
+APT-00116,Amber Mendez,49,Female,Emergency Medicine,Dr. Sophia Garcia,2026-07-10,Scheduled,,Paid,Blue Cross Blue Shield,Hyde Park
+APT-00117,Terry Johnson,56,Female,Cardiology,Dr. Emily Carter,2026-07-06,Scheduled,300.0,Paid,Medicaid,South Side
+APT-00118,Russell Smith,68,Male,Emergency Medicine,Dr. Robert Wilson,2026-05-04,Scheduled,150.0,Paid,Self Pay,Downtown Chicago
+APT-00119,Kenneth Miller,86,Male,Neurology,Dr. Sarah Williams,2026-05-20,Scheduled,,Pending,Medicare,West Loop
+APT-00120,James Boone,37,Female,Pediatrics,Dr. Robert Wilson,2026-07-04,No Show,250.0,Rejected,Cigna,South Side
+APT-00121,Richard Clayton,7,Male,Pediatrics,Dr. Emily Carter,2026-06-08,No Show,250.0,Paid,Medicaid,West Loop
+APT-00122,Melissa Johnson,85,Male,Psychiatry,Dr. Michael Johnson,2026-06-05,Rescheduled,75.0,Partially Paid,UnitedHealthcare,Hyde Park
+APT-00123,Dustin Williams,21,Female,Radiology,Dr. Sophia Garcia,2026-04-21,Rescheduled,600.0,Refunded,UnitedHealthcare,Hyde Park
+APT-00124,Felicia Howard,23,Male,Oncology,Dr. Sophia Garcia,2026-06-12,Completed,75.0,Refunded,Blue Cross Blue Shield,South Side
+APT-00125,John Lindsey,34,Female,Dermatology,Dr. Sophia Garcia,2026-04-04,No Show,300.0,Refunded,Cigna,South Side
+APT-00126,Kelsey Owens,39,Male,Oncology,Dr. David Miller,2026-05-13,Completed,600.0,Rejected,Medicaid,South Side
+APT-00127,Anthony Conrad,84,Female,Endocrinology,Dr. David Miller,2026-05-31,Rescheduled,,Insurance Processing,UnitedHealthcare,River North
+APT-00128,Matthew Baldwin,45,Female,Orthopedics,Dr. James Anderson,2026-03-25,No Show,300.0,Paid,Cigna,Hyde Park
+APT-00129,Austin Howe,73,Female,Orthopedics,Dr. Laura Davis,2026-06-27,Completed,600.0,Partially Paid,Aetna,Downtown Chicago
+APT-00130,Derek Powell,37,Female,Urology,Dr. Daniel Martinez,2026-06-04,Completed,450.0,Refunded,Medicaid,Downtown Chicago
+APT-00131,Christopher Freeman,71,Female,Psychiatry,Dr. Sophia Garcia,2026-05-18,Completed,,Insurance Processing,Blue Cross Blue Shield,Downtown Chicago
+APT-00132,Connor Jackson,68,Male,General Medicine,Dr. Laura Davis,2026-05-18,Scheduled,150.0,Partially Paid,Medicare,River North
+APT-00133,Kimberly Hayes,85,Male,Neurology,Dr. Sarah Williams,2026-06-09,Completed,600.0,Paid,Medicare,Lincoln Park
+APT-00134,Tiffany Franco,72,Male,Gynecology,Dr. Michael Johnson,2026-06-06,Cancelled,120.0,Partially Paid,Medicaid,Downtown Chicago
+APT-00135,Paula Stevenson,19,Female,Oncology,Dr. Emily Carter,2026-07-11,No Show,,Insurance Processing,Medicare,River North
+APT-00136,Edward Fields,77,Male,General Medicine,Dr. Sophia Garcia,2026-07-13,Completed,75.0,Pending,Self Pay,North Side
+APT-00137,Sarah Gibbs,82,Male,Emergency Medicine,Dr. David Miller,2026-04-18,Scheduled,250.0,Paid,Self Pay,River North
+APT-00138,Jordan Young,47,Female,Cardiology,Dr. Laura Davis,2026-06-13,Rescheduled,600.0,Paid,Blue Cross Blue Shield,River North
+APT-00139,Charles Pugh,49,Male,Endocrinology,Dr. Robert Wilson,2026-05-22,Completed,150.0,Pending,Medicare,Downtown Chicago
+APT-00140,James Robinson,37,Male,General Medicine,Dr. Sarah Williams,2026-04-29,Rescheduled,250.0,Rejected,Medicaid,Lincoln Park
+APT-00141,Brooke White,1,Male,Urology,Dr. David Miller,2026-07-02,Scheduled,200.0,Insurance Processing,Medicaid,West Loop
+APT-00142,Miss Madison West,33,Male,Psychiatry,Dr. Michael Johnson,2026-06-08,No Show,75.0,Pending,Cigna,Hyde Park
+APT-00143,Jennifer Duncan,83,Female,Oncology,Dr. Robert Wilson,2026-06-15,Cancelled,600.0,Partially Paid,UnitedHealthcare,West Loop
+APT-00144,Stanley Bates,11,Male,General Medicine,Dr. Laura Davis,2026-04-18,Completed,200.0,Refunded,Cigna,West Loop
+APT-00145,Jamie Cabrera,2,Male,Dermatology,Dr. Daniel Martinez,2026-03-22,No Show,120.0,Partially Paid,Blue Cross Blue Shield,West Loop
+APT-00146,Melissa Munoz,30,Female,Emergency Medicine,Dr. Sarah Williams,2026-04-25,Completed,300.0,Partially Paid,Cigna,River North
+APT-00147,Joann King,35,Female,Gastroenterology,Dr. Laura Davis,2026-05-25,Cancelled,250.0,Pending,Cigna,North Side
+APT-00148,Ashley Villarreal,26,Male,ENT,Dr. Robert Wilson,2026-07-13,Scheduled,120.0,Partially Paid,Cigna,Hyde Park
+APT-00149,Jonathan Drake,22,Male,Orthopedics,Dr. Daniel Martinez,2026-06-20,No Show,250.0,Partially Paid,Medicare,West Loop
+APT-00150,Kelsey Gordon,25,Female,General Medicine,Dr. Michael Johnson,2026-04-30,Completed,120.0,Paid,Medicare,Downtown Chicago
+APT-00151,Crystal Romero,34,Female,Urology,Dr. David Miller,2026-04-27,Completed,75.0,Insurance Processing,Medicare,Downtown Chicago
+APT-00152,Jacob Nelson,43,Male,Dermatology,Dr. James Anderson,2026-04-11,Scheduled,450.0,Paid,Medicare,North Side
+APT-00153,Julia Simmons,77,Male,Urology,Dr. Jessica Brown,2026-05-30,Completed,150.0,Partially Paid,Medicare,North Side
+APT-00154,Paul Tate,6,Female,Radiology,Dr. Emily Carter,2026-07-11,Cancelled,,Paid,Cigna,North Side
+APT-00155,Jacqueline Perez,24,Female,Dermatology,Dr. James Anderson,2026-04-17,No Show,120.0,Pending,Medicaid,Lincoln Park
+APT-00156,Mallory Davis,39,Male,Cardiology,Dr. Jessica Brown,2026-05-18,No Show,200.0,Rejected,Blue Cross Blue Shield,Hyde Park
+APT-00157,Jose Elliott,10,Male,Psychiatry,Dr. Emily Carter,2026-03-29,No Show,75.0,Refunded,Medicaid,North Side
+APT-00158,Steve Walker,81,Female,Radiology,Dr. Robert Wilson,2026-06-23,Completed,150.0,Pending,Medicaid,Hyde Park
+APT-00159,Stephen Parsons,10,Female,Urology,Dr. Robert Wilson,2026-07-05,Scheduled,150.0,Refunded,UnitedHealthcare,West Loop
+APT-00160,Robert Pearson,16,Male,Urology,Dr. Sophia Garcia,2026-03-24,Rescheduled,150.0,Partially Paid,Cigna,West Loop
+APT-00161,Michael Morgan,76,Female,Oncology,Dr. James Anderson,2026-03-30,No Show,,Paid,Aetna,Downtown Chicago
+APT-00162,Sabrina Spencer,66,Female,Neurology,Dr. Daniel Martinez,2026-03-25,Scheduled,75.0,Insurance Processing,Humana,South Side
+APT-00163,Robert Suarez,38,Male,Radiology,Dr. Daniel Martinez,2026-06-20,Completed,450.0,Pending,Aetna,Lincoln Park
+APT-00164,Jordan Peterson,57,Female,Cardiology,Dr. Jessica Brown,2026-06-30,Rescheduled,,Insurance Processing,Aetna,Hyde Park
+APT-00165,Kendra Obrien,16,Male,Oncology,Dr. James Anderson,2026-07-10,No Show,120.0,Partially Paid,Medicare,Downtown Chicago
+APT-00166,Veronica Hansen,82,Male,Urology,Dr. Michael Johnson,2026-05-09,No Show,300.0,Pending,Medicare,South Side
+APT-00167,Drew Hatfield,23,Female,Gynecology,Dr. Daniel Martinez,2026-04-20,Completed,600.0,Partially Paid,UnitedHealthcare,Lincoln Park
+APT-00168,Darrell Thompson,40,Female,Gastroenterology,Dr. Sarah Williams,2026-06-30,Completed,75.0,Rejected,UnitedHealthcare,Lincoln Park
+APT-00169,Cole Wheeler,66,Male,Pediatrics,Dr. Emily Carter,2026-06-02,Scheduled,300.0,Partially Paid,Aetna,River North
+APT-00170,Kelsey Kennedy,78,Male,Dermatology,Dr. Daniel Martinez,2026-06-26,Cancelled,75.0,Paid,Blue Cross Blue Shield,West Loop
+APT-00171,Olivia Bradford,11,Male,Orthopedics,Dr. Robert Wilson,2026-05-28,Rescheduled,,Pending,Medicare,South Side
+APT-00172,Paul Thompson,31,Male,Dermatology,Dr. Emily Carter,2026-07-06,Scheduled,250.0,Insurance Processing,Medicaid,North Side
+APT-00173,Mr. Derek Church,2,Male,Radiology,Dr. David Miller,2026-06-03,Rescheduled,200.0,Refunded,Humana,Lincoln Park
+APT-00174,Alejandro Bennett,13,Male,ENT,Dr. Jessica Brown,2026-05-11,Cancelled,75.0,Refunded,Cigna,Lincoln Park
+APT-00175,Felicia Butler,44,Female,Cardiology,Dr. Robert Wilson,2026-05-01,Rescheduled,600.0,Partially Paid,Self Pay,Hyde Park
+APT-00176,Gregory Bartlett,27,Male,Radiology,Dr. Michael Johnson,2026-03-25,Scheduled,,Pending,UnitedHealthcare,Lincoln Park
+APT-00177,Erik Powell,66,Female,ENT,Dr. Daniel Martinez,2026-04-21,Completed,150.0,Refunded,UnitedHealthcare,West Loop
+APT-00178,Mark Norris,22,Female,Urology,Dr. David Miller,2026-03-26,Cancelled,600.0,Insurance Processing,Humana,River North
+APT-00179,Kathryn Hicks,29,Male,Pediatrics,Dr. Laura Davis,2026-05-02,Completed,,Partially Paid,Aetna,Hyde Park
+APT-00180,Thomas Leon,74,Male,Orthopedics,Dr. Michael Johnson,2026-03-25,No Show,200.0,Insurance Processing,Humana,Hyde Park
+APT-00181,Whitney Mckay,87,Female,Urology,Dr. Emily Carter,2026-04-21,Rescheduled,200.0,Rejected,Aetna,River North
+APT-00182,Daniel Williamson,72,Female,Oncology,Dr. Jessica Brown,2026-04-05,Cancelled,150.0,Rejected,Humana,South Side
+APT-00183,Melissa Morrow,7,Male,Psychiatry,Dr. Sophia Garcia,2026-07-15,Scheduled,200.0,Insurance Processing,Self Pay,Downtown Chicago
+APT-00184,Brandy Blanchard,5,Male,Gynecology,Dr. Laura Davis,2026-03-19,Completed,300.0,Partially Paid,Medicaid,Hyde Park
+APT-00185,Mark Weaver,23,Male,Pediatrics,Dr. Daniel Martinez,2026-04-17,Completed,,Rejected,Cigna,South Side
+APT-00186,Madeline Clay,90,Female,Cardiology,Dr. Laura Davis,2026-06-05,Completed,600.0,Insurance Processing,Humana,Lincoln Park
+APT-00187,Benjamin Lawson,32,Female,Gastroenterology,Dr. Daniel Martinez,2026-04-05,Scheduled,300.0,Rejected,Humana,Downtown Chicago
+APT-00188,Jessica Tucker,41,Male,Endocrinology,Dr. James Anderson,2026-04-09,Rescheduled,300.0,Refunded,Blue Cross Blue Shield,Lincoln Park
+APT-00189,Jennifer Curtis,72,Female,Psychiatry,Dr. Laura Davis,2026-06-29,No Show,150.0,Paid,UnitedHealthcare,River North
+APT-00190,Charles Lee,77,Female,Radiology,Dr. David Miller,2026-06-21,No Show,450.0,Pending,Medicaid,North Side
+APT-00191,Kyle Anderson,63,Female,ENT,Dr. Michael Johnson,2026-06-09,Rescheduled,,Insurance Processing,Self Pay,Lincoln Park
+APT-00192,Carl Barker,57,Female,General Medicine,Dr. Laura Davis,2026-03-21,Cancelled,200.0,Insurance Processing,Self Pay,Hyde Park
+APT-00193,Monique Campbell,62,Female,ENT,Dr. Jessica Brown,2026-06-02,Rescheduled,450.0,Paid,Cigna,Lincoln Park
+APT-00194,Jamie Harper,8,Male,Psychiatry,Dr. Jessica Brown,2026-05-28,Cancelled,75.0,Rejected,Medicare,West Loop
+APT-00195,Christian Pollard,43,Female,General Medicine,Dr. Robert Wilson,2026-04-01,No Show,600.0,Insurance Processing,Self Pay,Hyde Park
+APT-00196,David Hernandez,24,Male,Dermatology,Dr. Robert Wilson,2026-04-14,Completed,120.0,Pending,Medicare,Hyde Park
+APT-00197,Brandon Keith,8,Female,Gastroenterology,Dr. Jessica Brown,2026-04-29,Cancelled,75.0,Insurance Processing,Medicare,Downtown Chicago
+APT-00198,Anna Williams,28,Male,Pediatrics,Dr. Daniel Martinez,2026-04-30,Cancelled,300.0,Paid,Cigna,River North
+APT-00199,Mary Davis,83,Male,Psychiatry,Dr. Michael Johnson,2026-06-07,Rescheduled,75.0,Paid,Medicaid,West Loop
+APT-00200,Jenna Brown,32,Male,Gynecology,Dr. Robert Wilson,2026-05-22,No Show,450.0,Insurance Processing,Self Pay,Hyde Park
+APT-00201,Gabriella Reyes,37,Male,Orthopedics,Dr. Sophia Garcia,2026-03-29,Cancelled,600.0,Insurance Processing,UnitedHealthcare,Downtown Chicago
+APT-00202,Jonathan Herrera,30,Male,Radiology,Dr. Emily Carter,2026-05-25,Completed,120.0,Rejected,Medicare,West Loop
+APT-00203,Gary Dixon,39,Male,Dermatology,Dr. Jessica Brown,2026-04-03,No Show,200.0,Rejected,Humana,South Side
+APT-00204,Austin Burns,2,Female,Psychiatry,Dr. Sarah Williams,2026-05-13,No Show,250.0,Partially Paid,UnitedHealthcare,South Side
+APT-00205,Mark Tucker,35,Female,Gastroenterology,Dr. Emily Carter,2026-03-27,Scheduled,200.0,Pending,Self Pay,Lincoln Park
+APT-00206,Samantha Rodriguez,20,Male,Emergency Medicine,Dr. Sophia Garcia,2026-04-16,Completed,75.0,Rejected,Medicare,South Side
+APT-00207,Jason Wright,46,Female,ENT,Dr. Sarah Williams,2026-03-25,Rescheduled,200.0,Rejected,Humana,River North
+APT-00208,Debbie Carr,19,Female,Dermatology,Dr. Laura Davis,2026-06-28,Scheduled,600.0,Partially Paid,Medicaid,North Side
+APT-00209,Jamie Smith,22,Male,Pediatrics,Dr. Daniel Martinez,2026-03-24,No Show,450.0,Insurance Processing,Humana,Hyde Park
+APT-00210,Calvin Jackson,29,Female,Urology,Dr. James Anderson,2026-04-05,Cancelled,120.0,Refunded,Cigna,River North
+APT-00211,Nicholas Wilson,17,Male,Psychiatry,Dr. Sophia Garcia,2026-06-29,No Show,120.0,Rejected,Medicaid,Downtown Chicago
+APT-00212,Benjamin Rasmussen,16,Male,Neurology,Dr. James Anderson,2026-05-25,Rescheduled,450.0,Rejected,Self Pay,West Loop
+APT-00213,Jordan Holt,55,Female,Gastroenterology,Dr. Sophia Garcia,2026-05-08,Rescheduled,,Insurance Processing,Humana,Hyde Park
+APT-00214,Brian Duncan,23,Female,Oncology,Dr. Robert Wilson,2026-07-10,No Show,450.0,Rejected,Blue Cross Blue Shield,Hyde Park
+APT-00215,Maria Perez,59,Male,Urology,Dr. Daniel Martinez,2026-04-02,Cancelled,300.0,Paid,Aetna,Downtown Chicago
+APT-00216,Nicole Wright,70,Male,Pediatrics,Dr. Jessica Brown,2026-06-15,No Show,75.0,Paid,Medicare,River North
+APT-00217,Erin Jones,2,Male,Urology,Dr. David Miller,2026-06-26,No Show,200.0,Insurance Processing,Blue Cross Blue Shield,Downtown Chicago
+APT-00218,Amber Nichols,44,Female,Oncology,Dr. Michael Johnson,2026-06-09,Completed,150.0,Paid,UnitedHealthcare,Hyde Park
+APT-00219,Danny Thompson,75,Male,Neurology,Dr. Michael Johnson,2026-06-25,Completed,250.0,Refunded,Self Pay,River North
+APT-00220,Laura Gonzalez,42,Female,Psychiatry,Dr. Sophia Garcia,2026-05-23,Scheduled,200.0,Insurance Processing,Medicare,West Loop
+APT-00221,Vincent Bennett,44,Female,Oncology,Dr. Sophia Garcia,2026-06-07,Scheduled,300.0,Insurance Processing,Aetna,South Side
+APT-00222,Amanda Clarke,73,Female,Gynecology,Dr. Michael Johnson,2026-05-27,Rescheduled,450.0,Refunded,Blue Cross Blue Shield,Hyde Park
+APT-00223,Katherine Rodriguez,1,Female,Neurology,Dr. Michael Johnson,2026-04-02,Rescheduled,450.0,Paid,Aetna,River North
+APT-00224,William Miranda,6,Female,Neurology,Dr. Sarah Williams,2026-06-12,Rescheduled,600.0,Insurance Processing,Medicaid,South Side
+APT-00225,Michael Mcdaniel,65,Female,Cardiology,Dr. James Anderson,2026-04-16,Cancelled,200.0,Insurance Processing,UnitedHealthcare,North Side
+APT-00226,Whitney Carlson,63,Male,Neurology,Dr. Jessica Brown,2026-06-22,Scheduled,450.0,Paid,Cigna,River North
+APT-00227,Todd Glenn,74,Female,Dermatology,Dr. Sophia Garcia,2026-06-15,Completed,450.0,Insurance Processing,Medicare,North Side
+APT-00228,Stephanie Caldwell MD,60,Male,Radiology,Dr. Michael Johnson,2026-03-26,No Show,600.0,Refunded,Medicare,Hyde Park
+APT-00229,Kylie Fox,30,Male,Psychiatry,Dr. Daniel Martinez,2026-06-12,Rescheduled,150.0,Paid,Aetna,Lincoln Park
+APT-00230,Kathryn Ali,68,Male,Emergency Medicine,Dr. Sophia Garcia,2026-06-15,Scheduled,75.0,Partially Paid,Self Pay,West Loop
+APT-00231,Timothy Johnson,36,Female,Endocrinology,Dr. Jessica Brown,2026-06-16,Cancelled,300.0,Insurance Processing,Blue Cross Blue Shield,Downtown Chicago
+APT-00232,Gregory Robinson,89,Female,Oncology,Dr. Robert Wilson,2026-07-11,No Show,120.0,Rejected,Aetna,South Side
+APT-00233,Mrs. Shari Johnson,81,Female,General Medicine,Dr. James Anderson,2026-05-13,Rescheduled,600.0,Insurance Processing,Aetna,Hyde Park
+APT-00234,Erik Livingston,19,Male,Cardiology,Dr. Jessica Brown,2026-05-13,Cancelled,250.0,Pending,Cigna,North Side
+APT-00235,Lynn Cordova,2,Female,General Medicine,Dr. Daniel Martinez,2026-05-10,Rescheduled,300.0,Rejected,Medicaid,Lincoln Park
+APT-00236,Kevin Jordan,83,Male,Urology,Dr. Jessica Brown,2026-06-28,Rescheduled,,Pending,Humana,South Side
+APT-00237,Deanna Hanson,25,Female,Orthopedics,Dr. Emily Carter,2026-07-01,No Show,200.0,Partially Paid,Aetna,Hyde Park
+APT-00238,Cody Merritt,6,Male,Dermatology,Dr. Daniel Martinez,2026-04-07,Scheduled,150.0,Paid,Aetna,Downtown Chicago
+APT-00239,Renee Jensen,79,Male,Radiology,Dr. Jessica Brown,2026-05-04,Rescheduled,120.0,Refunded,Medicare,North Side
+APT-00240,Jason Daniel,26,Female,Radiology,Dr. Daniel Martinez,2026-06-15,Rescheduled,300.0,Rejected,UnitedHealthcare,North Side
+APT-00241,James Ramirez,50,Male,Psychiatry,Dr. Michael Johnson,2026-03-21,Completed,600.0,Insurance Processing,Cigna,River North
+APT-00242,Charles Allen,11,Female,ENT,Dr. David Miller,2026-04-29,No Show,,Insurance Processing,Medicaid,River North
+APT-00243,Troy Anderson,54,Female,Radiology,Dr. Sophia Garcia,2026-05-29,Cancelled,150.0,Refunded,Medicaid,River North
+APT-00244,Eric Marquez,84,Female,Pediatrics,Dr. Sarah Williams,2026-05-10,No Show,450.0,Partially Paid,Medicare,Hyde Park
+APT-00245,Gina Santos,36,Male,Urology,Dr. Sophia Garcia,2026-03-30,No Show,300.0,Insurance Processing,Cigna,North Side
+APT-00246,Jennifer Coleman,38,Male,Neurology,Dr. Jessica Brown,2026-06-25,Rescheduled,,Rejected,Self Pay,North Side
+APT-00247,James Hernandez,29,Male,Radiology,Dr. Robert Wilson,2026-03-19,Scheduled,250.0,Paid,Cigna,South Side
+APT-00248,Morgan Garcia,85,Male,Endocrinology,Dr. Robert Wilson,2026-04-11,Rescheduled,250.0,Refunded,UnitedHealthcare,West Loop
+APT-00249,Mallory Shepard,43,Female,Radiology,Dr. Michael Johnson,2026-04-21,Scheduled,300.0,Pending,Aetna,Lincoln Park
+APT-00250,Holly Ortega,55,Male,Dermatology,Dr. Robert Wilson,2026-06-22,Completed,75.0,Paid,Blue Cross Blue Shield,North Side
+APT-00251,Sandra Kerr,13,Male,General Medicine,Dr. Jessica Brown,2026-05-30,Cancelled,600.0,Rejected,Cigna,South Side
+APT-00252,Scott Johnson,44,Female,Psychiatry,Dr. Jessica Brown,2026-07-03,No Show,450.0,Insurance Processing,UnitedHealthcare,Lincoln Park
+APT-00253,Bonnie Wells,76,Male,ENT,Dr. Daniel Martinez,2026-05-26,No Show,150.0,Insurance Processing,Self Pay,North Side
+APT-00254,Mr. Larry Mccoy,7,Female,Dermatology,Dr. Sophia Garcia,2026-05-28,Rescheduled,,Insurance Processing,Aetna,South Side
+APT-00255,Robin Martin,90,Female,Psychiatry,Dr. James Anderson,2026-07-12,No Show,150.0,Refunded,Medicaid,Hyde Park
+APT-00256,Vanessa Brown,82,Male,Gynecology,Dr. Daniel Martinez,2026-04-11,Completed,75.0,Paid,Humana,North Side
+APT-00257,Randy Swanson,83,Male,ENT,Dr. David Miller,2026-07-06,Scheduled,200.0,Partially Paid,Medicaid,South Side
+APT-00258,Roy Morgan,69,Male,Orthopedics,Dr. Laura Davis,2026-05-18,Scheduled,120.0,Paid,UnitedHealthcare,North Side
+APT-00259,Brandon Taylor,60,Female,Urology,Dr. David Miller,2026-07-01,Cancelled,150.0,Partially Paid,Medicare,River North
+APT-00260,Joseph Diaz,14,Male,Neurology,Dr. Robert Wilson,2026-07-12,Scheduled,75.0,Refunded,Medicare,Lincoln Park
+APT-00261,Brett Friedman,77,Female,ENT,Dr. Jessica Brown,2026-05-23,Scheduled,120.0,Refunded,Aetna,North Side
+APT-00262,Christopher Hill,13,Female,Pediatrics,Dr. James Anderson,2026-06-04,No Show,250.0,Partially Paid,Medicare,Lincoln Park
+APT-00263,Randall Kramer,77,Female,Dermatology,Dr. Robert Wilson,2026-03-25,Scheduled,200.0,Insurance Processing,Aetna,West Loop
+APT-00264,Kevin Christensen,84,Male,Neurology,Dr. James Anderson,2026-04-03,Scheduled,200.0,Pending,Aetna,Downtown Chicago
+APT-00265,Nicholas Bush,79,Female,Psychiatry,Dr. James Anderson,2026-03-27,Scheduled,300.0,Refunded,Humana,Downtown Chicago
+APT-00266,Douglas Rojas,28,Male,Neurology,Dr. Emily Carter,2026-06-04,Rescheduled,450.0,Pending,Self Pay,Hyde Park
+APT-00267,Evan Taylor,43,Female,ENT,Dr. Jessica Brown,2026-04-23,Scheduled,200.0,Paid,Cigna,Hyde Park
+APT-00268,Matthew Mathis,82,Male,Gastroenterology,Dr. David Miller,2026-05-23,No Show,200.0,Partially Paid,Medicaid,North Side
+APT-00269,Wendy Murphy,83,Female,Dermatology,Dr. James Anderson,2026-03-31,No Show,75.0,Pending,Self Pay,North Side
+APT-00270,Wesley Jones,12,Male,Orthopedics,Dr. Jessica Brown,2026-06-03,Cancelled,300.0,Rejected,Blue Cross Blue Shield,Lincoln Park
+APT-00271,Patrick May,19,Male,Oncology,Dr. Robert Wilson,2026-04-08,Completed,200.0,Pending,Medicaid,Downtown Chicago
+APT-00272,Ryan Calhoun,56,Male,Psychiatry,Dr. Sarah Williams,2026-04-20,Scheduled,120.0,Paid,Medicare,Lincoln Park
+APT-00273,Luis Avila,8,Male,Radiology,Dr. Michael Johnson,2026-04-05,Completed,75.0,Insurance Processing,Medicare,Hyde Park
+APT-00274,Jennifer Porter,51,Male,Gastroenterology,Dr. Sarah Williams,2026-04-19,Rescheduled,75.0,Rejected,Aetna,North Side
+APT-00275,Brent Morgan,75,Male,ENT,Dr. Laura Davis,2026-06-26,No Show,75.0,Refunded,Medicare,Lincoln Park
+APT-00276,Julia Castillo,47,Male,General Medicine,Dr. Robert Wilson,2026-06-06,No Show,450.0,Pending,Self Pay,North Side
+APT-00277,Corey Adams,28,Male,Radiology,Dr. Sarah Williams,2026-05-28,Cancelled,120.0,Pending,Medicare,West Loop
+APT-00278,Lindsey Beck DDS,7,Male,Oncology,Dr. Robert Wilson,2026-06-22,Cancelled,450.0,Partially Paid,Blue Cross Blue Shield,West Loop
+APT-00279,Daniel Lopez,58,Male,Gynecology,Dr. Sophia Garcia,2026-04-01,No Show,200.0,Pending,Self Pay,Lincoln Park
+APT-00280,Amy Oneal,80,Female,Dermatology,Dr. Daniel Martinez,2026-06-02,No Show,,Rejected,Self Pay,West Loop
+APT-00281,Kim White,69,Female,Oncology,Dr. Robert Wilson,2026-06-10,Cancelled,120.0,Refunded,Medicare,River North
+APT-00282,Alan Carter,23,Female,Dermatology,Dr. Emily Carter,2026-06-11,Scheduled,200.0,Partially Paid,Medicaid,River North
+APT-00283,Frank Williams,36,Female,Oncology,Dr. Sarah Williams,2026-06-09,Rescheduled,200.0,Insurance Processing,UnitedHealthcare,Hyde Park
+APT-00284,Ashley Russell,72,Female,General Medicine,Dr. Jessica Brown,2026-06-23,Rescheduled,75.0,Partially Paid,Medicare,Lincoln Park
+APT-00285,Bradley Bailey,25,Female,Orthopedics,Dr. Sarah Williams,2026-06-30,Scheduled,200.0,Refunded,Blue Cross Blue Shield,South Side
+APT-00286,Megan White,35,Male,Neurology,Dr. Sarah Williams,2026-06-12,Scheduled,450.0,Refunded,Aetna,Lincoln Park
+APT-00287,Kimberly Jenkins,39,Female,Emergency Medicine,Dr. David Miller,2026-05-10,No Show,450.0,Pending,UnitedHealthcare,Downtown Chicago
+APT-00288,Carla Alexander,85,Female,Pediatrics,Dr. James Anderson,2026-06-17,Completed,150.0,Refunded,UnitedHealthcare,Lincoln Park
+APT-00289,Diana Reeves,60,Female,ENT,Dr. James Anderson,2026-03-21,Cancelled,200.0,Refunded,Blue Cross Blue Shield,Downtown Chicago
+APT-00290,Edward Taylor,26,Female,Gastroenterology,Dr. Robert Wilson,2026-04-04,Completed,150.0,Paid,Medicaid,North Side
+APT-00291,Michael Nguyen,90,Male,Urology,Dr. David Miller,2026-04-22,Completed,300.0,Refunded,Medicaid,River North
+APT-00292,Melissa Moody,15,Female,ENT,Dr. Jessica Brown,2026-03-30,Rescheduled,75.0,Paid,Medicaid,River North
+APT-00293,Amanda Rivera,41,Male,ENT,Dr. Jessica Brown,2026-05-02,Completed,250.0,Refunded,Blue Cross Blue Shield,Downtown Chicago
+APT-00294,Christie Lamb,22,Female,Orthopedics,Dr. Daniel Martinez,2026-05-04,Rescheduled,200.0,Insurance Processing,Medicare,River North
+APT-00295,Michael Ramirez,29,Female,Gynecology,Dr. Robert Wilson,2026-06-24,Scheduled,,Pending,Cigna,West Loop
+APT-00296,Robert Walton,81,Male,Gynecology,Dr. Daniel Martinez,2026-04-22,Scheduled,250.0,Paid,Cigna,Lincoln Park
+APT-00297,Connor Davies,21,Male,Neurology,Dr. Sarah Williams,2026-05-01,Completed,120.0,Paid,Aetna,Lincoln Park
+APT-00298,James Morrison,23,Female,General Medicine,Dr. Laura Davis,2026-04-25,Cancelled,150.0,Refunded,Humana,Downtown Chicago
+APT-00299,Courtney Rose,36,Male,Emergency Medicine,Dr. Emily Carter,2026-04-30,No Show,200.0,Paid,Aetna,Downtown Chicago
+APT-00300,Jonathan Brown,13,Male,Orthopedics,Dr. Sophia Garcia,2026-04-24,Cancelled,120.0,Pending,UnitedHealthcare,River North
+APT-00301,Matthew Barnes,40,Female,Oncology,Dr. David Miller,2026-06-12,Cancelled,150.0,Refunded,Blue Cross Blue Shield,River North
+APT-00302,Samantha Ramirez,48,Female,Cardiology,Dr. David Miller,2026-03-31,Scheduled,600.0,Paid,Self Pay,South Side
+APT-00303,Diana Harris,85,Female,Emergency Medicine,Dr. James Anderson,2026-07-04,Completed,200.0,Insurance Processing,Humana,South Side
+APT-00304,Aaron King,70,Female,ENT,Dr. Robert Wilson,2026-07-10,Completed,300.0,Rejected,Cigna,West Loop
+APT-00305,Christian Griffin,26,Male,Neurology,Dr. James Anderson,2026-07-12,Rescheduled,150.0,Paid,UnitedHealthcare,South Side
+APT-00306,Cody Foster,76,Male,Urology,Dr. Sophia Garcia,2026-07-05,Scheduled,600.0,Rejected,Medicare,Downtown Chicago
+APT-00307,Margaret Brown,87,Male,ENT,Dr. David Miller,2026-05-23,Rescheduled,120.0,Paid,UnitedHealthcare,River North
+APT-00308,Carl Dodson,46,Male,Cardiology,Dr. Sophia Garcia,2026-06-19,Completed,250.0,Refunded,Medicaid,River North
+APT-00309,Andrea Golden,12,Female,Oncology,Dr. Emily Carter,2026-06-22,No Show,300.0,Paid,Medicare,Lincoln Park
+APT-00310,Sandra Jones,48,Female,Psychiatry,Dr. Robert Wilson,2026-05-21,Completed,150.0,Refunded,Cigna,West Loop
+APT-00311,Amy Luna,84,Female,Endocrinology,Dr. Sarah Williams,2026-06-07,Rescheduled,600.0,Rejected,Medicaid,Lincoln Park
+APT-00312,Amanda Holmes,66,Female,Oncology,Dr. Emily Carter,2026-04-10,Rescheduled,250.0,Rejected,Self Pay,South Side
+APT-00313,Jean Lawrence,68,Female,Orthopedics,Dr. Jessica Brown,2026-06-13,Rescheduled,250.0,Pending,UnitedHealthcare,West Loop
+APT-00314,Jeremy Roberts,53,Male,Oncology,Dr. David Miller,2026-05-23,No Show,,Partially Paid,Aetna,Downtown Chicago
+APT-00315,Gina Pena,90,Female,Orthopedics,Dr. Sophia Garcia,2026-04-24,Completed,450.0,Pending,Self Pay,Downtown Chicago
+APT-00316,Candice Martin,62,Male,Radiology,Dr. Laura Davis,2026-06-08,Rescheduled,120.0,Pending,Self Pay,South Side
+APT-00317,James Larson,9,Male,Radiology,Dr. Sarah Williams,2026-05-13,Scheduled,300.0,Pending,Aetna,South Side
+APT-00318,Alex Sanders,90,Female,ENT,Dr. Robert Wilson,2026-04-03,Cancelled,600.0,Insurance Processing,Blue Cross Blue Shield,River North
+APT-00319,Gary Lester,19,Female,Gynecology,Dr. Michael Johnson,2026-06-03,Rescheduled,200.0,Pending,Medicare,Lincoln Park
+APT-00320,Tracey Anderson,83,Female,Endocrinology,Dr. James Anderson,2026-05-31,Rescheduled,150.0,Rejected,UnitedHealthcare,Hyde Park
+APT-00321,James White,80,Male,Oncology,Dr. Michael Johnson,2026-05-30,No Show,600.0,Paid,Self Pay,South Side
+APT-00322,Sabrina Potter,71,Female,Emergency Medicine,Dr. Jessica Brown,2026-03-23,Scheduled,450.0,Partially Paid,Medicare,River North
+APT-00323,Joseph Levy PhD,23,Female,Dermatology,Dr. Sophia Garcia,2026-05-27,Rescheduled,600.0,Partially Paid,Self Pay,River North
+APT-00324,Roberto Petersen,24,Female,Oncology,Dr. Sarah Williams,2026-04-11,Scheduled,120.0,Pending,Self Pay,Lincoln Park
+APT-00325,Linda White,1,Male,Neurology,Dr. Emily Carter,2026-07-06,Rescheduled,,Partially Paid,Medicare,Hyde Park
+APT-00326,Cole Russell,85,Male,Psychiatry,Dr. Sarah Williams,2026-06-05,Cancelled,200.0,Refunded,Aetna,River North
+APT-00327,Stephanie Wong,79,Male,Gastroenterology,Dr. Sophia Garcia,2026-05-03,No Show,250.0,Paid,Humana,South Side
+APT-00328,Bryan Rodriguez,69,Female,Psychiatry,Dr. Daniel Martinez,2026-03-30,Scheduled,300.0,Rejected,Humana,North Side
+APT-00329,Samantha Hart,27,Female,Pediatrics,Dr. Emily Carter,2026-04-06,Rescheduled,150.0,Pending,Humana,River North
+APT-00330,Adam Phillips,23,Female,Neurology,Dr. Daniel Martinez,2026-05-21,Scheduled,600.0,Insurance Processing,Medicare,River North
+APT-00331,Dustin Jackson,40,Female,Orthopedics,Dr. David Miller,2026-07-07,No Show,75.0,Insurance Processing,Medicare,River North
+APT-00332,Priscilla Walton,67,Female,Neurology,Dr. Emily Carter,2026-07-08,No Show,450.0,Insurance Processing,Humana,Lincoln Park
+APT-00333,Duane Thompson,73,Male,Gastroenterology,Dr. Daniel Martinez,2026-04-04,No Show,300.0,Paid,UnitedHealthcare,West Loop
+APT-00334,John Haynes,38,Male,Cardiology,Dr. Emily Carter,2026-04-03,Rescheduled,150.0,Pending,Medicaid,Hyde Park
+APT-00335,Joshua Estrada,25,Male,Emergency Medicine,Dr. Laura Davis,2026-04-13,Rescheduled,200.0,Partially Paid,UnitedHealthcare,Downtown Chicago
+APT-00336,Victoria Hoffman,52,Male,Neurology,Dr. James Anderson,2026-05-15,Scheduled,450.0,Partially Paid,Humana,Lincoln Park
+APT-00337,Mr. Adrian Rhodes MD,34,Female,Neurology,Dr. Robert Wilson,2026-06-22,Rescheduled,,Insurance Processing,UnitedHealthcare,Downtown Chicago
+APT-00338,Samantha Cole,33,Female,Pediatrics,Dr. David Miller,2026-04-08,Cancelled,75.0,Partially Paid,Self Pay,Lincoln Park
+APT-00339,Benjamin Alexander,58,Female,Pediatrics,Dr. Michael Johnson,2026-06-10,Completed,150.0,Pending,Cigna,Downtown Chicago
+APT-00340,Sarah Moore,27,Male,Orthopedics,Dr. David Miller,2026-04-23,No Show,600.0,Insurance Processing,Aetna,West Loop
+APT-00341,Robert Whitaker,90,Male,General Medicine,Dr. Emily Carter,2026-07-07,Scheduled,450.0,Partially Paid,Medicare,Downtown Chicago
+APT-00342,Timothy Stone,90,Male,General Medicine,Dr. Robert Wilson,2026-04-14,Scheduled,150.0,Paid,Blue Cross Blue Shield,Downtown Chicago
+APT-00343,Amy Davis,55,Female,ENT,Dr. Michael Johnson,2026-04-02,Rescheduled,600.0,Insurance Processing,Aetna,Hyde Park
+APT-00344,Carolyn Abbott,54,Male,Endocrinology,Dr. Sarah Williams,2026-05-24,Cancelled,600.0,Insurance Processing,Blue Cross Blue Shield,Downtown Chicago
+APT-00345,Alyssa Lewis,49,Male,Urology,Dr. Laura Davis,2026-04-24,Completed,150.0,Insurance Processing,Medicaid,North Side
+APT-00346,Michelle Fowler,49,Male,Orthopedics,Dr. Emily Carter,2026-06-12,Completed,200.0,Insurance Processing,Humana,Downtown Chicago
+APT-00347,Emily Martin,4,Female,Endocrinology,Dr. Sophia Garcia,2026-03-28,Rescheduled,300.0,Partially Paid,Aetna,Hyde Park
+APT-00348,Lindsey Gray,83,Male,Urology,Dr. Daniel Martinez,2026-05-26,Rescheduled,,Rejected,Aetna,West Loop
+APT-00349,Matthew Hopkins,64,Male,Radiology,Dr. Daniel Martinez,2026-06-01,No Show,75.0,Partially Paid,Medicaid,Hyde Park
+APT-00350,Roberta Turner,29,Female,Neurology,Dr. Emily Carter,2026-06-29,Cancelled,120.0,Insurance Processing,Medicaid,South Side
+APT-00351,Vanessa Murphy,54,Male,Psychiatry,Dr. Daniel Martinez,2026-06-18,Completed,120.0,Insurance Processing,Medicaid,Downtown Chicago
+APT-00352,Amanda Adams,44,Female,Radiology,Dr. David Miller,2026-05-15,Completed,75.0,Paid,Blue Cross Blue Shield,West Loop
+APT-00353,Michelle Pope,31,Male,Radiology,Dr. James Anderson,2026-06-01,Rescheduled,75.0,Refunded,UnitedHealthcare,River North
+APT-00354,Lisa Lee,54,Male,Gastroenterology,Dr. Sarah Williams,2026-04-16,Scheduled,250.0,Partially Paid,Medicaid,Lincoln Park
+APT-00355,Anthony Williams DDS,66,Female,Orthopedics,Dr. Robert Wilson,2026-06-17,Completed,450.0,Rejected,Humana,North Side
+APT-00356,Donna Washington,77,Female,General Medicine,Dr. James Anderson,2026-05-26,No Show,150.0,Refunded,Medicare,River North
+APT-00357,Matthew Wells,30,Female,Pediatrics,Dr. Emily Carter,2026-06-21,Rescheduled,300.0,Pending,UnitedHealthcare,River North
+APT-00358,Stephanie Oneal,49,Female,Pediatrics,Dr. James Anderson,2026-06-25,Scheduled,150.0,Rejected,UnitedHealthcare,Hyde Park
+APT-00359,Amy Hill,89,Female,Gastroenterology,Dr. Emily Carter,2026-04-17,Rescheduled,120.0,Paid,Medicare,River North
+APT-00360,Steven Nelson,28,Male,Cardiology,Dr. Michael Johnson,2026-06-21,Scheduled,300.0,Pending,Aetna,North Side
+APT-00361,Natasha Smith,34,Female,Psychiatry,Dr. David Miller,2026-03-21,Cancelled,200.0,Pending,Medicaid,West Loop
+APT-00362,Timothy Graham,87,Female,Gynecology,Dr. Jessica Brown,2026-06-30,Cancelled,,Insurance Processing,Cigna,South Side
+APT-00363,Michelle Young,37,Male,Neurology,Dr. Robert Wilson,2026-07-13,Completed,300.0,Paid,Cigna,North Side
+APT-00364,Hector West,72,Male,Gynecology,Dr. James Anderson,2026-07-01,Completed,,Rejected,Cigna,South Side
+APT-00365,Anthony Sims,56,Female,Psychiatry,Dr. Robert Wilson,2026-03-26,No Show,75.0,Rejected,Medicare,Lincoln Park
+APT-00366,Ashlee Cross,62,Male,Radiology,Dr. Robert Wilson,2026-04-17,Scheduled,150.0,Paid,Medicare,Hyde Park
+APT-00367,Shelly Poole,20,Male,Emergency Medicine,Dr. Jessica Brown,2026-05-02,Scheduled,300.0,Partially Paid,Aetna,South Side
+APT-00368,Kristen Jordan,39,Female,Oncology,Dr. Jessica Brown,2026-05-17,Scheduled,75.0,Partially Paid,Self Pay,Hyde Park
+APT-00369,Kathryn Rivers,72,Male,Neurology,Dr. James Anderson,2026-07-15,Rescheduled,,Rejected,Self Pay,North Side
+APT-00370,Rebecca Garza,45,Male,Endocrinology,Dr. Michael Johnson,2026-06-16,Completed,150.0,Refunded,Humana,West Loop
+APT-00371,April Brown,49,Male,Psychiatry,Dr. Laura Davis,2026-03-25,Cancelled,120.0,Paid,Self Pay,West Loop
+APT-00372,Matthew Torres,90,Male,Pediatrics,Dr. Sarah Williams,2026-03-29,Cancelled,150.0,Pending,Blue Cross Blue Shield,South Side
+APT-00373,Paul Obrien,33,Female,Urology,Dr. Sophia Garcia,2026-06-28,Rescheduled,120.0,Pending,UnitedHealthcare,Hyde Park
+APT-00374,Justin Williams,29,Female,Gynecology,Dr. Robert Wilson,2026-05-19,Completed,450.0,Partially Paid,Blue Cross Blue Shield,North Side
+APT-00375,Robin Garrett,15,Male,ENT,Dr. David Miller,2026-04-18,Completed,300.0,Partially Paid,Self Pay,Hyde Park
+APT-00376,Richard Brown,58,Male,Gynecology,Dr. Jessica Brown,2026-05-27,Completed,450.0,Insurance Processing,Cigna,Hyde Park
+APT-00377,Cynthia Pope,76,Male,Emergency Medicine,Dr. Michael Johnson,2026-05-22,Rescheduled,600.0,Paid,UnitedHealthcare,River North
+APT-00378,Jacob Thompson,37,Female,Emergency Medicine,Dr. Daniel Martinez,2026-04-22,No Show,600.0,Paid,Self Pay,North Side
+APT-00379,Jonathan Smith,84,Female,ENT,Dr. Michael Johnson,2026-04-05,Cancelled,150.0,Pending,Medicare,Lincoln Park
+APT-00380,Corey Rodriguez,6,Female,Orthopedics,Dr. James Anderson,2026-07-09,Cancelled,150.0,Insurance Processing,Humana,West Loop
+APT-00381,Perry Ayala,63,Male,Endocrinology,Dr. Sarah Williams,2026-06-04,Cancelled,75.0,Paid,Humana,Lincoln Park
+APT-00382,Melissa Nicholson,58,Male,Pediatrics,Dr. Emily Carter,2026-06-02,Completed,600.0,Rejected,Cigna,River North
+APT-00383,Tina Dickson,20,Male,Cardiology,Dr. James Anderson,2026-04-30,No Show,200.0,Pending,Humana,Lincoln Park
+APT-00384,Renee Rios,19,Female,Cardiology,Dr. Robert Wilson,2026-05-18,No Show,600.0,Rejected,Humana,Downtown Chicago
+APT-00385,Taylor Horne,38,Female,Gynecology,Dr. Emily Carter,2026-06-05,Scheduled,150.0,Refunded,UnitedHealthcare,South Side
+APT-00386,Andrea King,42,Female,Radiology,Dr. James Anderson,2026-06-27,Scheduled,200.0,Partially Paid,UnitedHealthcare,Hyde Park
+APT-00387,Tamara Reid,5,Female,Oncology,Dr. Jessica Brown,2026-05-25,Scheduled,450.0,Insurance Processing,Self Pay,River North
+APT-00388,Kimberly Bradley,17,Male,Psychiatry,Dr. Jessica Brown,2026-06-03,No Show,450.0,Paid,Medicaid,South Side
+APT-00389,Rachel Delacruz,67,Male,Endocrinology,Dr. Robert Wilson,2026-03-25,Completed,120.0,Rejected,Aetna,Lincoln Park
+APT-00390,Sue Dixon,68,Male,Urology,Dr. David Miller,2026-05-20,Rescheduled,120.0,Pending,Aetna,South Side
+APT-00391,Randall Schroeder,62,Male,Oncology,Dr. Sophia Garcia,2026-05-29,Cancelled,150.0,Partially Paid,Humana,River North
+APT-00392,Robert Newton,34,Female,Psychiatry,Dr. James Anderson,2026-06-14,Scheduled,450.0,Paid,Blue Cross Blue Shield,River North
+APT-00393,Andrea Eaton,2,Male,ENT,Dr. Michael Johnson,2026-05-31,No Show,200.0,Insurance Processing,Medicaid,Downtown Chicago
+APT-00394,Dana Taylor MD,60,Female,Dermatology,Dr. Emily Carter,2026-03-30,Cancelled,250.0,Partially Paid,Medicaid,Hyde Park
+APT-00395,Daniel Reed,44,Male,Dermatology,Dr. James Anderson,2026-04-14,Completed,450.0,Insurance Processing,Cigna,West Loop
+APT-00396,Bonnie Wright,34,Female,General Medicine,Dr. Sophia Garcia,2026-05-23,No Show,75.0,Insurance Processing,Humana,North Side
+APT-00397,Christina Holland,43,Female,Urology,Dr. Jessica Brown,2026-05-26,Cancelled,,Pending,UnitedHealthcare,Downtown Chicago
+APT-00398,Sophia Davis,21,Male,Gastroenterology,Dr. David Miller,2026-05-15,No Show,600.0,Refunded,Blue Cross Blue Shield,Lincoln Park
+APT-00399,Susan Howard,66,Female,Gastroenterology,Dr. James Anderson,2026-07-04,No Show,,Paid,UnitedHealthcare,South Side
+APT-00400,Troy Wood,39,Male,Radiology,Dr. Sarah Williams,2026-07-12,No Show,,Pending,Self Pay,Hyde Park
+APT-00401,Brian Castro,11,Male,Neurology,Dr. Emily Carter,2026-06-11,Completed,75.0,Refunded,Medicaid,Downtown Chicago
+APT-00402,Cody Jordan,72,Female,Dermatology,Dr. Daniel Martinez,2026-05-06,Completed,600.0,Paid,Medicare,South Side
+APT-00403,Tracy Cox,30,Female,Urology,Dr. Laura Davis,2026-07-14,Cancelled,600.0,Insurance Processing,Blue Cross Blue Shield,West Loop
+APT-00404,Tiffany Holland,38,Female,Pediatrics,Dr. James Anderson,2026-06-28,Rescheduled,,Partially Paid,Humana,North Side
+APT-00405,Angela Nielsen,16,Female,Psychiatry,Dr. Laura Davis,2026-04-01,Scheduled,600.0,Rejected,Medicare,North Side
+APT-00406,Michelle Stephens,15,Male,Psychiatry,Dr. Jessica Brown,2026-04-28,Scheduled,250.0,Rejected,Blue Cross Blue Shield,Lincoln Park
+APT-00407,Michael Torres,2,Male,Urology,Dr. Robert Wilson,2026-05-15,No Show,300.0,Partially Paid,Blue Cross Blue Shield,Lincoln Park
+APT-00408,Cheryl Petty,26,Female,Oncology,Dr. Daniel Martinez,2026-06-16,Completed,75.0,Rejected,Self Pay,South Side
+APT-00409,Cheryl Fry,9,Female,Gastroenterology,Dr. David Miller,2026-04-05,Scheduled,450.0,Paid,Medicare,Hyde Park
+APT-00410,Jacob Fischer,90,Male,Pediatrics,Dr. Emily Carter,2026-07-02,Rescheduled,250.0,Paid,Humana,Lincoln Park
+APT-00411,Joseph Gutierrez,74,Female,Radiology,Dr. Robert Wilson,2026-06-07,Cancelled,450.0,Pending,Humana,Downtown Chicago
+APT-00412,Anne Mclaughlin,18,Female,Orthopedics,Dr. Sophia Garcia,2026-04-02,Completed,300.0,Refunded,Cigna,Lincoln Park
+APT-00413,Mark Arnold,51,Female,Radiology,Dr. Daniel Martinez,2026-04-09,Cancelled,,Paid,Aetna,River North
+APT-00414,Ashley Schaefer,58,Female,Cardiology,Dr. Sophia Garcia,2026-03-22,No Show,600.0,Pending,Medicaid,Lincoln Park
+APT-00415,Alan Garcia,89,Female,ENT,Dr. Sophia Garcia,2026-04-05,Scheduled,,Refunded,Self Pay,Downtown Chicago
+APT-00416,Billy Cruz,24,Female,ENT,Dr. Michael Johnson,2026-06-05,Scheduled,75.0,Insurance Processing,Medicaid,Lincoln Park
+APT-00417,Dennis Fuentes,37,Male,Psychiatry,Dr. Sarah Williams,2026-06-02,Cancelled,75.0,Pending,Medicare,Lincoln Park
+APT-00418,Molly Smith,25,Female,Psychiatry,Dr. Emily Carter,2026-07-02,Scheduled,600.0,Partially Paid,Cigna,Downtown Chicago
+APT-00419,Edward Garcia,7,Female,Neurology,Dr. James Anderson,2026-04-14,Rescheduled,250.0,Insurance Processing,Medicare,River North
+APT-00420,John Harris,87,Male,Emergency Medicine,Dr. James Anderson,2026-06-17,Cancelled,120.0,Paid,Medicaid,South Side
+APT-00421,Cynthia Vargas,10,Male,Gastroenterology,Dr. Jessica Brown,2026-05-03,Completed,450.0,Pending,UnitedHealthcare,River North
+APT-00422,Brian Contreras,35,Male,Urology,Dr. Robert Wilson,2026-04-07,Rescheduled,200.0,Rejected,Humana,Downtown Chicago
+APT-00423,Alan Jordan,68,Male,Psychiatry,Dr. Jessica Brown,2026-04-12,Scheduled,450.0,Rejected,Humana,Hyde Park
+APT-00424,Rachel Taylor,17,Female,Neurology,Dr. Sarah Williams,2026-04-30,No Show,200.0,Pending,Self Pay,River North
+APT-00425,Patrick Miller,6,Female,Dermatology,Dr. Michael Johnson,2026-07-10,Cancelled,250.0,Partially Paid,Humana,North Side
+APT-00426,Steven Coleman,15,Female,Urology,Dr. Daniel Martinez,2026-04-27,Cancelled,150.0,Refunded,Aetna,River North
+APT-00427,Gregory Ryan,29,Female,Pediatrics,Dr. Sophia Garcia,2026-03-18,Completed,,Rejected,Self Pay,North Side
+APT-00428,John Obrien,18,Male,Neurology,Dr. Michael Johnson,2026-06-25,Scheduled,,Refunded,Medicaid,Lincoln Park
+APT-00429,Brendan Serrano,43,Male,Cardiology,Dr. David Miller,2026-07-14,Scheduled,200.0,Insurance Processing,Medicare,Lincoln Park
+APT-00430,Nicole Rose,10,Male,General Medicine,Dr. Laura Davis,2026-06-06,Cancelled,250.0,Insurance Processing,Medicare,Lincoln Park
+APT-00431,Suzanne Charles,43,Male,Gynecology,Dr. Daniel Martinez,2026-06-10,Rescheduled,450.0,Partially Paid,Medicaid,River North
+APT-00432,Carol Sims,66,Male,Gynecology,Dr. Laura Davis,2026-07-03,Scheduled,600.0,Paid,Blue Cross Blue Shield,West Loop
+APT-00433,Brenda Garner,62,Male,ENT,Dr. Jessica Brown,2026-03-18,Rescheduled,75.0,Insurance Processing,Medicare,South Side
+APT-00434,Colleen Kirk,47,Male,ENT,Dr. James Anderson,2026-03-20,Scheduled,250.0,Refunded,Cigna,West Loop
+APT-00435,Christopher Brown,57,Male,ENT,Dr. James Anderson,2026-04-14,Completed,600.0,Rejected,Self Pay,River North
+APT-00436,Leah Mcneil,12,Male,Radiology,Dr. Sophia Garcia,2026-04-07,Scheduled,75.0,Pending,Self Pay,North Side
+APT-00437,Sherry Walker,7,Female,Endocrinology,Dr. Emily Carter,2026-05-29,Completed,200.0,Partially Paid,Humana,South Side
+APT-00438,Jessica Frazier,89,Female,Endocrinology,Dr. David Miller,2026-05-09,Completed,200.0,Rejected,Blue Cross Blue Shield,Hyde Park
+APT-00439,Kelly Todd,32,Male,Radiology,Dr. Jessica Brown,2026-03-20,Rescheduled,250.0,Pending,Medicaid,Hyde Park
+APT-00440,Chelsea Bowers,13,Male,Dermatology,Dr. Sophia Garcia,2026-04-30,Completed,,Insurance Processing,Self Pay,Hyde Park
+APT-00441,Katherine Gonzales,32,Female,Cardiology,Dr. Michael Johnson,2026-03-28,Completed,450.0,Pending,UnitedHealthcare,South Side
+APT-00442,Jacob Taylor,24,Male,Endocrinology,Dr. Robert Wilson,2026-06-02,No Show,120.0,Insurance Processing,Aetna,South Side
+APT-00443,Roberta Woodward,65,Male,Dermatology,Dr. Sophia Garcia,2026-05-15,Rescheduled,300.0,Rejected,Self Pay,River North
+APT-00444,Mr. Brett Kaiser,84,Male,Neurology,Dr. Robert Wilson,2026-05-01,Completed,450.0,Paid,Blue Cross Blue Shield,Hyde Park
+APT-00445,Mrs. Sandra Glenn DDS,13,Male,Gastroenterology,Dr. Emily Carter,2026-07-04,Rescheduled,120.0,Rejected,UnitedHealthcare,River North
+APT-00446,Brittney Harris,25,Female,Radiology,Dr. Jessica Brown,2026-07-07,No Show,300.0,Partially Paid,Blue Cross Blue Shield,West Loop
+APT-00447,Lori Reyes,36,Female,Radiology,Dr. David Miller,2026-07-05,No Show,300.0,Insurance Processing,UnitedHealthcare,River North
+APT-00448,Kimberly Ayers,71,Female,ENT,Dr. David Miller,2026-03-26,Completed,,Pending,Humana,Lincoln Park
+APT-00449,Gabriel Jackson,58,Female,Orthopedics,Dr. Sophia Garcia,2026-05-27,Scheduled,450.0,Pending,Aetna,River North
+APT-00450,Anne Davis,32,Male,Dermatology,Dr. Laura Davis,2026-06-01,Completed,300.0,Rejected,Aetna,Lincoln Park
+APT-00451,Cynthia Miller,19,Male,Cardiology,Dr. David Miller,2026-05-15,Completed,450.0,Paid,Blue Cross Blue Shield,North Side
+APT-00452,Carla White,59,Male,General Medicine,Dr. David Miller,2026-07-10,Cancelled,250.0,Insurance Processing,Humana,Lincoln Park
+APT-00453,Alicia Lewis,60,Female,Pediatrics,Dr. Sarah Williams,2026-06-23,Cancelled,450.0,Insurance Processing,Humana,South Side
+APT-00454,Sean Swanson,54,Female,Orthopedics,Dr. Jessica Brown,2026-07-10,Completed,,Paid,UnitedHealthcare,Lincoln Park
+APT-00455,Felicia Smith,21,Female,Pediatrics,Dr. David Miller,2026-04-30,Rescheduled,,Paid,Self Pay,Downtown Chicago
+APT-00456,Patrick Bauer,78,Male,Cardiology,Dr. David Miller,2026-04-12,Scheduled,450.0,Paid,Aetna,Lincoln Park
+APT-00457,Joan Phillips,89,Male,Dermatology,Dr. James Anderson,2026-04-21,No Show,450.0,Partially Paid,Cigna,Hyde Park
+APT-00458,Patrick Rodgers,34,Male,Radiology,Dr. James Anderson,2026-05-20,Scheduled,250.0,Refunded,Aetna,North Side
+APT-00459,Sherry Graham,25,Female,ENT,Dr. Emily Carter,2026-06-14,Cancelled,,Partially Paid,Self Pay,Downtown Chicago
+APT-00460,Tiffany Lynn,82,Male,Dermatology,Dr. Emily Carter,2026-04-30,Cancelled,150.0,Partially Paid,Medicare,South Side
+APT-00461,Barbara Edwards,83,Female,Neurology,Dr. David Miller,2026-04-10,Completed,600.0,Pending,Blue Cross Blue Shield,River North
+APT-00462,Mrs. Kelly Burgess,88,Female,Gynecology,Dr. Sophia Garcia,2026-05-04,Rescheduled,600.0,Rejected,Aetna,South Side
+APT-00463,Jonathan Orozco,1,Female,Pediatrics,Dr. Jessica Brown,2026-05-16,No Show,150.0,Rejected,Medicare,Lincoln Park
+APT-00464,Roy Yoder,42,Female,Oncology,Dr. Emily Carter,2026-05-18,Rescheduled,300.0,Paid,Aetna,Hyde Park
+APT-00465,Guy Foster,9,Male,Psychiatry,Dr. David Miller,2026-06-13,Rescheduled,120.0,Rejected,Medicare,River North
+APT-00466,Jeremy Cowan,58,Female,Dermatology,Dr. Jessica Brown,2026-04-29,Scheduled,250.0,Refunded,Cigna,River North
+APT-00467,Jacqueline Davis,31,Female,Radiology,Dr. Laura Davis,2026-06-27,Completed,120.0,Pending,Humana,Hyde Park
+APT-00468,Susan Hendricks,51,Female,Cardiology,Dr. Daniel Martinez,2026-07-07,Cancelled,,Pending,Medicaid,North Side
+APT-00469,Christopher Anderson,79,Female,Endocrinology,Dr. Sarah Williams,2026-07-03,Cancelled,600.0,Pending,Blue Cross Blue Shield,Hyde Park
+APT-00470,Charles Becker,75,Female,Pediatrics,Dr. Laura Davis,2026-07-15,Rescheduled,,Insurance Processing,Humana,Downtown Chicago
+APT-00471,Marc Carey,9,Male,Pediatrics,Dr. David Miller,2026-06-11,Scheduled,75.0,Refunded,Humana,North Side
+APT-00472,Ashley Duncan,29,Male,Endocrinology,Dr. David Miller,2026-04-22,Rescheduled,300.0,Refunded,Humana,Lincoln Park
+APT-00473,Daniel Aguilar,53,Female,General Medicine,Dr. James Anderson,2026-03-18,Completed,450.0,Insurance Processing,UnitedHealthcare,West Loop
+APT-00474,Jennifer Ross,65,Female,Pediatrics,Dr. Sophia Garcia,2026-06-27,No Show,150.0,Refunded,Medicaid,North Side
+APT-00475,Andrew Dunn,22,Male,Urology,Dr. Jessica Brown,2026-04-07,No Show,120.0,Rejected,Self Pay,Hyde Park
+APT-00476,Gregory Bush,73,Male,Orthopedics,Dr. Sarah Williams,2026-06-05,Scheduled,75.0,Partially Paid,Blue Cross Blue Shield,North Side
+APT-00477,Blake Donaldson,33,Male,Gynecology,Dr. Sophia Garcia,2026-03-23,Cancelled,450.0,Rejected,Medicaid,Downtown Chicago
+APT-00478,Francisco Houston,17,Female,General Medicine,Dr. Emily Carter,2026-06-24,Cancelled,300.0,Partially Paid,Medicare,West Loop
+APT-00479,Angela Rogers,50,Male,Emergency Medicine,Dr. Daniel Martinez,2026-05-10,Cancelled,250.0,Paid,Medicaid,North Side
+APT-00480,Kristopher Taylor,65,Female,Cardiology,Dr. Emily Carter,2026-06-08,Rescheduled,450.0,Refunded,Self Pay,Downtown Chicago
+APT-00481,Jody West,21,Female,Dermatology,Dr. James Anderson,2026-04-27,Cancelled,,Pending,Medicare,Hyde Park
+APT-00482,Rhonda Webb,56,Male,Endocrinology,Dr. James Anderson,2026-06-29,Completed,250.0,Refunded,Self Pay,River North
+APT-00483,Samantha Campbell,38,Male,Psychiatry,Dr. Jessica Brown,2026-06-25,Cancelled,250.0,Refunded,Medicare,North Side
+APT-00484,Jasmine Turner,62,Male,Urology,Dr. Michael Johnson,2026-03-30,Completed,250.0,Refunded,UnitedHealthcare,Hyde Park
+APT-00485,Dean Lewis,39,Male,Urology,Dr. Robert Wilson,2026-03-19,No Show,450.0,Paid,Blue Cross Blue Shield,South Side
+APT-00486,Miss Jennifer Stevenson,79,Female,Orthopedics,Dr. Laura Davis,2026-05-01,Scheduled,200.0,Paid,Self Pay,South Side
+APT-00487,Anthony Lozano,52,Male,Gastroenterology,Dr. Robert Wilson,2026-07-10,Completed,300.0,Pending,Cigna,West Loop
+APT-00488,John Rogers,24,Male,Gynecology,Dr. David Miller,2026-04-30,Rescheduled,250.0,Pending,Medicare,South Side
+APT-00489,James Cowan,31,Male,ENT,Dr. Laura Davis,2026-07-08,Scheduled,150.0,Paid,Aetna,River North
+APT-00490,Megan Martinez,21,Female,Cardiology,Dr. Sarah Williams,2026-05-25,Scheduled,450.0,Partially Paid,Cigna,West Loop
+APT-00491,Mary Gibbs,25,Female,Radiology,Dr. Laura Davis,2026-06-02,No Show,200.0,Partially Paid,UnitedHealthcare,Downtown Chicago
+APT-00492,Felicia Huber,61,Female,Dermatology,Dr. David Miller,2026-07-06,No Show,450.0,Refunded,UnitedHealthcare,Downtown Chicago
+APT-00493,Brooke Morrison,40,Female,Neurology,Dr. David Miller,2026-04-07,No Show,75.0,Insurance Processing,Medicaid,Downtown Chicago
+APT-00494,Laurie Johns,35,Female,Emergency Medicine,Dr. Sarah Williams,2026-06-20,No Show,,Rejected,Self Pay,South Side
+APT-00495,Sandra Jensen,37,Male,Endocrinology,Dr. David Miller,2026-05-10,Scheduled,75.0,Paid,Blue Cross Blue Shield,Lincoln Park
+APT-00496,James Baxter,69,Male,Gynecology,Dr. Laura Davis,2026-06-22,Cancelled,150.0,Rejected,Humana,North Side
+APT-00497,Joshua Smith,74,Female,Psychiatry,Dr. Sophia Garcia,2026-05-16,Cancelled,120.0,Pending,Self Pay,Downtown Chicago
+APT-00498,Linda Smith,22,Male,Dermatology,Dr. David Miller,2026-05-05,No Show,,Partially Paid,UnitedHealthcare,Downtown Chicago
+APT-00499,Katie Price,84,Male,Endocrinology,Dr. Sophia Garcia,2026-05-19,Scheduled,200.0,Paid,Self Pay,Hyde Park
+APT-00500,John Calderon,2,Female,Urology,Dr. Sophia Garcia,2026-07-13,Scheduled,75.0,Pending,Medicaid,River North
+APT-00362,Timothy Graham,87,Female,Gynecology,Dr. Jessica Brown,2026-06-30,Cancelled,,Insurance Processing,Cigna,South Side
+APT-00074,Diana Hensley,43,Male,Neurology,Dr. James Anderson,2026-03-18,No Show,75.0,Rejected,Self Pay,Downtown Chicago
+APT-00375,Robin Garrett,15,Male,ENT,Dr. David Miller,2026-04-18,Completed,300.0,Partially Paid,Self Pay,Hyde Park
+APT-00156,Mallory Davis,39,Male,Cardiology,Dr. Jessica Brown,2026-05-18,No Show,200.0,Rejected,Blue Cross Blue Shield,Hyde Park
+APT-00105,Kari Thomas,6,Male,Pediatrics,Dr. Sarah Williams,2026-05-05,No Show,250.0,Refunded,Blue Cross Blue Shield,Downtown Chicago
+APT-00395,Daniel Reed,44,Male,Dermatology,Dr. James Anderson,2026-04-14,Completed,450.0,Insurance Processing,Cigna,West Loop
+APT-00378,Jacob Thompson,37,Female,Emergency Medicine,Dr. Daniel Martinez,2026-04-22,No Show,600.0,Paid,Self Pay,North Side
+APT-00125,John Lindsey,34,Female,Dermatology,Dr. Sophia Garcia,2026-04-04,No Show,300.0,Refunded,Cigna,South Side
+APT-00069,Bruce Waters,65,Female,Cardiology,Dr. Laura Davis,2026-06-15,Completed,250.0,Insurance Processing,Medicare,Hyde Park
+APT-00451,Cynthia Miller,19,Male,Cardiology,Dr. David Miller,2026-05-15,Completed,450.0,Paid,Blue Cross Blue Shield,North Side
+APT-00010,Kristen Hall,74,Female,Orthopedics,Dr. Michael Johnson,2026-06-08,Cancelled,600.0,Partially Paid,Medicare,North Side
+APT-00195,Christian Pollard,43,Female,General Medicine,Dr. Robert Wilson,2026-04-01,No Show,600.0,Insurance Processing,Self Pay,Hyde Park
+APT-00407,Michael Torres,2,Male,Urology,Dr. Robert Wilson,2026-05-15,No Show,300.0,Partially Paid,Blue Cross Blue Shield,Lincoln Park
+APT-00085,Wesley Potter,89,Male,Endocrinology,Dr. Jessica Brown,2026-06-09,Cancelled,600.0,Rejected,Aetna,Lincoln Park
+APT-00372,Matthew Torres,90,Male,Pediatrics,Dr. Sarah Williams,2026-03-29,Cancelled,150.0,Pending,Blue Cross Blue Shield,South Side
